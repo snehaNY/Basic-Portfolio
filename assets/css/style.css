@@ -3,14 +3,16 @@ body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	background-image: url("../images/dust_scratches.png");
+	padding-bottom:30px;   /* Height of the footer */
   }
   
   header {
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
 	text-align: center;
 	width: 100%;
-	height: 70px;
+	height: 60px;
 }
 h1{
 	
@@ -18,9 +20,112 @@ h1{
 	color: #ffffff;
 	background: #4aaaa5;
 	float: left;	
-	padding: 10px;
+	width:150px;
+	padding: 6px;
 	margin-top:0px;
-	margin-left: 150px;
+	margin-left: 100px;
 	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 40px;
+	
 }
+
+nav{
+	margin-left:600px;
+	padding:20px;
+
+}
+
+a{
+	text-align: right;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #f1f1f1;
+}
+
+a:last-child {
+    border-right: none;
+}
+
+.container {
+	
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	
+	width: 960px ;
+	height: 400px;
+	margin-top: 30px;
+	margin-left: 100px;
+	margin-right: 100px;
+	
+	
+}
+
+h2{
+	
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	padding: 10px;
+	text-align: left;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+hr{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+img{
+	margin-top: 10px;
+	margin-left: 20px;
+	height: 150px;
+	width: 150px;
+	float: left;
+}
+
+.left-section{
+	float: left;
+	
+}
+
+.right-section{
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+	line-height: 22px;
+	width: 75%;
+	height: 150px;
+}
+
+.bottom-section{
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+	line-height: 22px;
+	width: 100%;
+	
+}
+
+footer {
+
+	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+  	text-align:center;
+	background-color: #666666;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border-top: 7px solid #4aaaa5;
+	color: #cccccc;
+	height: 60px;
+	line-height: 90px;
+} 
+
   
